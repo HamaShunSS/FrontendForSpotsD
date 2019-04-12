@@ -12,7 +12,7 @@ class Infos extends React.Component {
     }
 
     componentDidMount() {
-        fetch('http://localhost:3000/places',
+        fetch('https://spots-for-sjsu-students.herokuapp.com/places',
             {
                 method: 'post',
                 headers: {'Content-Type': 'application/json'},

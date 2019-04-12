@@ -63,7 +63,7 @@ class Form extends Component {
 
 
     onSubmitForm =() => {
-        fetch('http://localhost:3000/register', {
+        fetch('https://spots-for-sjsu-students.herokuapp.com/register', {
             method: 'post',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({ // Send email and password updated at "onEmailChange" and "onPasswordChange" to the database through JSON.stringify
