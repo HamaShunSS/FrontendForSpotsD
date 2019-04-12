@@ -16,6 +16,10 @@
     "react-tilt": "^0.1.4",
     "superagent": "^5.0.2"
   },
+  "engines": {
+    "node": "10.15.3",
+    "npm": "6.4.1"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
